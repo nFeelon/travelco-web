@@ -1,0 +1,10 @@
+*{
+    font-family: EuclidFlex;
+}
+
+body {
+    margin-top: 14vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    height: 100vh;
+}

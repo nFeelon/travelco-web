@@ -1,0 +1,28 @@
+:root {
+    /* Отступы */
+    --pad-t: 3.42vh;
+    --pad-b: 3.5vh;
+    --pad-tp: 1.35vh;
+    --pad-bm: 3.42vh;
+
+    --marg-t: 1.35vh;
+    --marg-b: 1.9vh;
+    --marg-tp: 3.42vh;
+    --marg-bm: 3.42vh;
+
+    /* Шрифт */
+    --font-p: 1vw;
+    --line-p: 125%;
+    --font-h: 2vw;
+    --col-w: white;
+    --col-a: #ADD8E6;
+
+    /* Фон */
+    --bg-s1: #1D282E;
+    --bg-s2: #29373F;
+    --btn-s1: #2B76CD;
+    --btn-s1-hov: #235da0;
+
+    /* Разное */
+    --trn-s: 0.5s;
+}
