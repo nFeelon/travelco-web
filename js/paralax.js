@@ -4,9 +4,9 @@ const header = document.getElementById("header");
 const header_text = document.getElementById("header-text");
 
 const backgrounds = [
-    'images/paralax/Tokyo.png',
-    'images/paralax/Minsk.png',
-    'images/paralax/Paris.png'
+    'images/paralax/Tokyo.webp',
+    'images/paralax/Minsk.webp',
+    'images/paralax/Paris.webp'
 ];
 const backgrounds_text = [
     'Токио, Япония',
@@ -34,5 +34,5 @@ document.addEventListener("DOMContentLoaded", () => {
             image.src = preloadImages.arguments[i];
         });
     };
-    preloadImages("images/paralax/Minsk.png", "images/paralax/Tokyo.png", "images/paralax/Paris.png");
+    preloadImages("images/paralax/Minsk.webp", "images/paralax/Tokyo.webp", "images/paralax/Paris.webp");
 });
