@@ -157,10 +157,6 @@ footer a {
 }
 
 @media screen and (orientation:portrait) {
-    body {
-        background-color: var(--bg-s1);
-    }
-
     .content {
         overflow: hidden;
     }
@@ -425,7 +421,7 @@ footer a {
         height: auto;
     }
 
-    .main-block4__group h4{
+    .main-block4__group h3 {
         font-size: 5vw;
         line-height: var(--line-p);
     }
@@ -715,8 +711,8 @@ footer a {
         transition: var(--trn-s);
     }
     
-    .main-block4__group h4 {
-        letter-spacing: 0.7px;
+    .main-block4__group h3 {
+        letter-spacing: -1.8px;
     }
     .main-block4__group div img {
         margin: auto;
