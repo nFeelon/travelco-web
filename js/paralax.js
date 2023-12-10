@@ -1,4 +1,4 @@
-const BACKGROUND_IMAGE_CHANGE_INTERVAL = 15*1000;
+const BACKGROUND_IMAGE_CHANGE_INTERVAL = 15 * 1000;
 
 const header = document.getElementById("header");
 const header_text = document.getElementById("header-text");
@@ -18,7 +18,7 @@ const backgrounds_text = [
 let currentImage = 0;
 
 //Смена фона на странице
-(function changeBgImg(){ 
+(function changeBgImg() {
     header.style.backgroundImage = `url(${backgrounds[currentImage]})`;
     header_text.textContent = backgrounds_text[currentImage];
     currentImage = (currentImage + 1) % backgrounds.length;

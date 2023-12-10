@@ -12,7 +12,7 @@
 }
 
 .main-block1__travels__elems_el {
-    display: flex; 
+    display: flex;
 }
 
 .travels__elems_el_info {
@@ -21,16 +21,19 @@
     justify-content: space-between;
 }
 
-.categories, .categories-left, .categories-right {
+.categories,
+.categories-left,
+.categories-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .category {
     display: flex;
     align-items: center;
 }
+
 .categories-right button {
     border: 0;
     border-radius: 7px;
@@ -42,7 +45,7 @@
     display: block;
 
     text-decoration: underline;
-    text-align: center; 
+    text-align: center;
     color: var(--col-w);
 }
 
@@ -63,7 +66,7 @@
         line-height: var(--line-p);
     }
 
-    .main-block1__travels__elems :nth-child(n+4) {
+    .main-block1__travels__elems :nth-child(n + 4) {
         display: none;
     }
 
@@ -72,18 +75,20 @@
         padding-top: 2.45vh;
         padding-bottom: 2.45vh;
         margin-top: var(--marg-b);
-
     }
+
     .travels__elems_el_info {
         width: 70%;
         margin: auto;
     }
+
     .travels__elems_el_info h3 {
         margin-top: 0.8vh;
 
         font-size: 4vw;
         line-height: var(--line-p);
     }
+
     .travels__elems_el_info p {
         margin-top: var(--marg-b);
 
@@ -97,7 +102,9 @@
         margin: auto;
     }
 
-    .categories, .categories-left, .categories-right {
+    .categories,
+    .categories-left,
+    .categories-right {
         flex-direction: column;
     }
 
@@ -106,7 +113,7 @@
         margin-top: 1.22vh;
     }
 
-    .category p{
+    .category p {
         margin-top: 1vh;
     }
 
@@ -123,10 +130,9 @@
 
         font-size: 3vw;
         line-height: var(--line-p);
-        
     }
 
-    #main-block1_more { 
+    #main-block1_more {
         margin-top: 2.3vh;
 
         font-size: 4vw;
@@ -138,6 +144,7 @@
     .header-menu {
         margin-bottom: 9vh;
     }
+
     .header-search {
         margin-bottom: 13.5vh;
     }
@@ -182,7 +189,7 @@
         line-height: 128.125%;
         letter-spacing: 0.8px;
     }
-    
+
     .el_info p {
         font-size: var(--font-p);
         line-height: 132%;
@@ -226,7 +233,7 @@
         margin-left: auto;
         margin-right: auto;
         width: max-content;
-        
+
         font-size: 1.6vw;
         line-height: 128.125%;
         text-decoration: none;

@@ -8,6 +8,7 @@ header {
     align-items: baseline;
     column-gap: 0.6vw;
 }
+
 .main-block1__elem1_info {
     display: flex;
     flex-direction: column;
@@ -26,42 +27,47 @@ header {
     background-color: var(--bg-s1);
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation: landscape) {
     .header-menu__right_ul {
         letter-spacing: 0.8px;
     }
+
     .main-block1 {
         padding-top: 3.6vh;
         padding-bottom: 6vh;
     }
+
     .main-block1 h2 {
         font-size: 1.8vw;
         letter-spacing: 0.5px;
     }
+
     .main-block1__elem0 img {
         width: 2.9vw;
     }
+
     #page2 img {
         width: 17.7vw;
     }
+
     .main-block4 h2 {
         margin-bottom: 1vh;
-    
+
         font-size: 1.9vw;
         line-height: 121.05%;
         letter-spacing: -0.2px;
     }
+
     .main-block4__group {
         margin-top: 0;
     }
+
     .main-block4 {
         padding-bottom: 4.5vh;
     }
 }
 
-
-
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
     .main-block1__elem0 {
         justify-content: center;
         column-gap: 1.2vw;
@@ -89,5 +95,4 @@ header {
         font-size: 4vw;
         line-height: var(--line-p);
     }
-    
 }

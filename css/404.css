@@ -1,10 +1,24 @@
-*{
-    font-family: EuclidFlex;
+main {
+    color: white;
+    text-align: center;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    font-size: 4vw;
+    background-color: var(--bg-s1);
 }
 
 body {
-    margin-top: 14vh;
-    margin-left: 13vw;
-    margin-right: 13vw;
-    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+@media screen and (orientation: landscape) {
+    .header-search {
+        margin-bottom: 15vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .header-search {
+        margin-bottom: 13.5vh;
+    }
 }
